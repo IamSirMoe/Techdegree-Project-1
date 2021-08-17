@@ -95,8 +95,9 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 3px solid #ccc;
-  border-radius: 6px;
+  border-radius: 50px;
   transition: all 0.5s;
+  border-style: outset;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -239,10 +240,14 @@ ul.hobbies {
 .contact-card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
+  max-width: 700px;
+  text-align: center;
   background: #fff;
   border-bottom: 3px solid #ccc;
-  border-radius: 6px;
+  border-radius: 50px;
   transition: all 0.5s;
+  border-style: ridge;
+}
+.contact-card:hover {
+  border-color: #ff99ff;
 }

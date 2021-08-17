@@ -23,18 +23,18 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.top-nav {
   width: 100%;
-  background: black;
-  min-height: 30px;
-  padding: 10px;
+  background-color: black;
+  min-height: 40px;
+  padding: 12px;
   position: fixed;
   text-align: center;
 }
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 800;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -57,10 +57,10 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center;
+  background: url('images/hallandale.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 header {
   line-height: 1.5;
@@ -85,8 +85,8 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #efefef;
+  color: rgba(46, 49, 49, 1);
 }
 .card {
   margin: 30px;
@@ -94,7 +94,7 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 3px solid #ccc;
   border-radius: 6px;
   transition: all 0.5s;
 }
@@ -110,14 +110,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #f39507;
   color: white;
-  padding: 5px 10px;
+  padding: 15px 15px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #0493f1;
 }
 
 footer {
@@ -207,4 +207,42 @@ a.social:hover {
 }
 .card {
   color: darkblue;
+}
+
+.hobbies {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 3px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+.hobbies:hover {
+  border-color: #ff99ff;
+}
+
+ul.hobbies {
+  padding: 0;
+  text-align: center;
+}
+
+.hobbies li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #f39507;
+  color: white;
+  padding: 15px 15px;
+  margin: 2px;
+}
+.contact-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 3px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.5s;
 }

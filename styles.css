@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
   display: block;
   margin-right: auto;
-  color: white;
+  color: black;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,7 +52,7 @@ a:hover {
   transition: all 0.5s;
 }
 .nav a:hover {
-  color: white;
+  color: #ff99ff;
 }
 
 header {
@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all 0.5s;
+  border-radius: 35%;
+  border: 5px double yellow;
+  transition: all 0.9s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -202,7 +202,7 @@ a.social:hover {
     margin: 40px auto;
   }
 }
-.main-nav {
+.header-nav {
   background-color: skyblue;
   color: darkblue;
 }
@@ -237,6 +237,7 @@ ul.hobbies {
   padding: 15px 15px;
   margin: 2px;
 }
+
 .contact-card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -248,6 +249,29 @@ ul.hobbies {
   transition: all 0.5s;
   border-style: ridge;
 }
+
 .contact-card:hover {
   border-color: #ff99ff;
+}
+.business {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 3px solid #ccc;
+  border-radius: 50px;
+  transition: all 0.5s;
+  border-style: outset;
+  color: darkblue;
+}
+
+.business:hover {
+  border-color: #ff99ff;
+}
+
+.business-img {
+  height: 150px;
+  width: 150px;
+  border: 3px double yellow;
 }
